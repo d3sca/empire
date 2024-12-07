@@ -1,4 +1,4 @@
-FROM golang:1.10.8
+FROM golang:1.23.4
 
 LABEL version 0.13.0
 

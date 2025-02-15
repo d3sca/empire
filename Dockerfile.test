@@ -1,4 +1,4 @@
-FROM golang:1.10.8
+FROM golang:1.24.0
 
 RUN apt-get update -yy && \
   apt-get install -yy git make curl libxml2-dev libxmlsec1-dev liblzma-dev pkg-config xmlsec1 postgresql-client
